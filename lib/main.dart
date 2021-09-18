@@ -68,6 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
         IconButton(
           onPressed: () {
             popUpDialogScreen();
+            print('Im pressed');
           },
           icon: const Icon(Icons.alarm_add),
         )
